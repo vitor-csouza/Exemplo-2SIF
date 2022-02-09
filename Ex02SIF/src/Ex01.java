@@ -1,12 +1,14 @@
 import java.util.Scanner;
 
+//Testando o gitbub
+
 public class Ex01 {
 
 	public static void main(String[] args) {
 		
 		int [] num = new int[5]; //variavel local ao metodo main
 		
-		lerDados(num); // argumento --> variavel que será enviada para o método
+		lerDados(num); // argumento --> variavel que serÃ¡ enviada para o mÃ©todo
 		
 		int maior = maiorValor(num);
 		int menor = menorValor(num);
@@ -36,11 +38,11 @@ public class Ex01 {
 		return aux;
 	}
 	
-	public static void lerDados(int[] num) { // parâmetro --> variavel que recebe o valor
+	public static void lerDados(int[] num) { // parÃ¢metro --> variavel que recebe o valor
 		Scanner input = new Scanner(System.in);
 
 		for(int i=0;i<5;i++) {
-			System.out.print("Digite um número inteiro: ");
+			System.out.print("Digite um nÃºmero inteiro: ");
 			num[i]=input.nextInt();
 		}
 		
